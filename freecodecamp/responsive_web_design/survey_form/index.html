@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lan="en">
+
+  <head>
+    <title>Food Preference Survey</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <main>
+      <form id="survey-form">
+        <h1 id="title">Food Preference Survey</h1>
+        <p id="description">This is a short survey about your food preferences.</p>
+        <label for="name" id="name-label">
+        <hr>
+          <div>
+            <h4>Name</h4>
+          </div>
+          <input id="name" name="name" type="text" placeholder="Enter your name" required />
+        </label>
+        <label for="email" id="email-label">
+          <div>
+            <h4>Email</h4>
+          </div>
+          <input id="email" name="email" type="email" placeholder="Enter your email" required />
+        </label>
+        <label for="number" id="number-label">
+          <div>
+            <h4 class="inline">Age</h4>
+              <h5 class="inline">(optional)</h5>
+          </div>
+          <input id="number" name="number" type="number" placeholder="Enter your age" min=0 max=200 />
+        </label>
+        <hr>
+        <h3>Do you prefer fish or meat?</h3>
+        <select id="dropdown">
+          <option value="1">Meat</option>
+          <option value="2">Fish</option>
+          <option value="3">I don't eat meat</option>
+        </select>
+
+        <label>
+          <h3>Do you prefer vegetables or fruits?</h3>
+          <h4 class="inline">Vegtables</h4> <input type="radio" name="vegie-fruit" value="1" class="inline" />
+         <h4 class="inline">Fruits</h4> <input type="radio" name="vegie-fruit" value="2" class="inline" />
+        </label>
+        <h3>What kind of wine do you prefer?</h3>
+        <label>
+          <h4 class="inline">Red wine </h4><input type="checkbox" value="1" class="inline"/>
+          <h4 class="inline">White wine </h4><input type="checkbox" value="2" class="inline" />
+          <h4 class="inline">I don't drink </h4><input type="checkbox" value="3" class="inline" />
+        </label>
+		<hr>
+        <label>
+          <h3>What are the reasons for your preferences?</h3>
+          <textarea></textarea>
+        <label>
+
+        <label for="submit">
+          <input id="submit" type="submit" name="submit" value="Submit" />
+        </label>
+      </form>
+    </body>
+  </main>
+</html>

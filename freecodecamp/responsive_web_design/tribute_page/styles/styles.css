@@ -1,0 +1,62 @@
+body {
+  background-color: #44220090;
+  margin: 10px auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+div {
+  color: #ffffff;
+}
+
+
+label, h1{
+  color: #ffffff;
+  margin: 20 auto;
+  padding: 20;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  font-size: 50;
+  font-weight: 700;
+}
+
+#tribute-info {
+  font-size: 20;
+}
+
+#tribute-link {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  color: #CCCCCC
+}
+
+#tribute-link:hover {
+  cursor: pointer;
+  color: #FFaaCC
+
+}
+
+#image {
+  
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#img-div {
+  width: auto;
+  height: auto;
+  max-width: 1200px;
+  display: block;
+  text-align: center;
+  object-fit: fill;
+  margin: auto;
+}

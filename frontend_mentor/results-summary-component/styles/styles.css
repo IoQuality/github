@@ -1,0 +1,184 @@
+
+html {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    font-family: "Hanken Grotesk";
+    margin: 0;
+}
+
+.circle {
+    height: 120px;
+    width: 120px;
+    background-color: hsl(234, 85%, 45%);
+    border-radius: 50%;
+    align-self: center;
+    margin: 20px 0px;
+}
+
+.result-summary {
+    background-image: linear-gradient(0deg, hsla(256, 72%, 46%, 1), hsl(234, 85%, 45%) , hsl(252, 100%, 67%));
+    color: hsl(0, 0%, 100%);
+    padding: 20px 50px;
+}
+
+.detailed-summary {
+    background-color: white;
+    color: black;
+    padding: 10px 40px;  
+    border-radius: 20px;
+}
+
+.summary {
+    margin: 20px 0px;
+}
+
+.light-text {
+    color: hsl(241, 100%, 89%);
+}
+
+.left-aligned {
+    text-align: left;
+}
+
+div p {
+    font-weight: lighter;
+}
+
+.regular {
+    font-weight: 500;
+}
+
+.lighter {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 1000;
+}
+
+.result {
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    margin: 20px 0px 0px 0px;
+    background-color:  hsl(224, 30%, 27%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.attribution { 
+    font-size: 11px; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+.reaction {background-color: hsla(0, 100%, 67%, 7%);}
+.memory {background-color: hsla(39, 100%, 56%, 7%);}
+.verbal {background-color: hsla(166, 100%, 37%, 7%);}
+.visual {background-color: hsla(234, 85%, 45%, 7%);}
+
+.reaction-color {color: hsl(0, 80%, 67%)}
+.memory-color {color: hsl(39, 80%, 56%)}
+.verbal-color {color: hsl(166, 80%, 37%)}
+.visual-color {color: hsl(234, 80%, 45%)}
+
+
+.result > span {
+    display: flex;
+}
+
+svg {
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: hsla(256, 72%, 46%, 1);
+}
+
+.slash {
+    margin-left: 5px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+.container {
+    border-radius: 20px;
+    
+}
+
+@media (max-width: 767px) {
+    .result-summary {
+        border-radius: 0px 0px 20px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    body {
+        max-width: 380px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        box-shadow: 0px 0px 30px #ddd;
+    }
+    .result-summary {
+        width: 50%;
+        border-radius: 20px;
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .detailed-summary {
+        width: 50%;
+    }
+
+    .attribution {
+        margin: 10px 0px 0px 0px; 
+        padding: 0px;
+    }
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+  }
